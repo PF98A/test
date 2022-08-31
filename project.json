@@ -1,0 +1,168 @@
+{
+	"approved" : true,
+	"contentrating" : "Everyone",
+	"description" : "[h1] ---------------------------------[/h1]\r\n[b]🎨 Artwork by[url=https://www.artstation.com/shal] Shal.E[/url][/b]\r\n[h1] ---------------------------------[/h1]\r\n[h1]Tags[/h1]\r\n[h1] ---------------------------------[/h1]\r\n- Train\r\n- Relax\r\n- Anime\r\n- Art\r\n- Sakura \r\n- Japanese \r\n- Girl\r\n- Woman\r\n- Visualizer\r\n- ICUE\r\n[h1] ---------------------------------[/h1]",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"blur" : 
+			{
+				"condition" : "scene_settings.value",
+				"fraction" : true,
+				"index" : 7,
+				"max" : 1,
+				"min" : 0,
+				"order" : 107,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "Window Blur",
+				"type" : "slider",
+				"value" : 0.25
+			},
+			"clock" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 6,
+				"order" : 106,
+				"text" : "Clock",
+				"type" : "bool",
+				"value" : true
+			},
+			"clouds" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 4,
+				"order" : 104,
+				"text" : "Clouds",
+				"type" : "bool",
+				"value" : true
+			},
+			"color" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"index" : 9,
+				"order" : 109,
+				"text" : "Color",
+				"type" : "color",
+				"value" : "0.7294117647058823 0.6509803921568628 0.7294117647058823"
+			},
+			"dust_motes" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 2,
+				"order" : 102,
+				"text" : "Dust Motes",
+				"type" : "bool",
+				"value" : true
+			},
+			"removebottom" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"index" : 13,
+				"order" : 113,
+				"text" : "Remove Bottom",
+				"type" : "bool",
+				"value" : true
+			},
+			"removetop" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"index" : 12,
+				"order" : 112,
+				"text" : "Remove Top",
+				"type" : "bool",
+				"value" : true
+			},
+			"ribbon_pink" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 1,
+				"order" : 101,
+				"text" : "Pink Ribbon",
+				"type" : "bool",
+				"value" : true
+			},
+			"scene_settings" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "<hr><h3>Scene Settings</h3><hr>",
+				"type" : "bool",
+				"value" : false
+			},
+			"schemecolor" : 
+			{
+				"order" : 101,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.984313725490196 0.9058823529411765 0.9803921568627451"
+			},
+			"tree" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 3,
+				"order" : 103,
+				"text" : "Sakura Tree",
+				"type" : "bool",
+				"value" : true
+			},
+			"visualizer" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"fraction" : true,
+				"index" : 10,
+				"max" : 1,
+				"min" : 0,
+				"order" : 110,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Opacity",
+				"type" : "slider",
+				"value" : 1
+			},
+			"visualizer_settings" : 
+			{
+				"index" : 8,
+				"order" : 108,
+				"text" : "<hr><h3>Visualizer Settings</h3><hr>",
+				"type" : "bool",
+				"value" : false
+			},
+			"visualizer_width" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"fraction" : true,
+				"index" : 11,
+				"max" : 1,
+				"min" : 0.5,
+				"order" : 111,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Width",
+				"type" : "slider",
+				"value" : 0.8
+			},
+			"windowglare" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 5,
+				"order" : 105,
+				"text" : "Window Glare",
+				"type" : "bool",
+				"value" : true
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"supportsaudioprocessing" : true,
+	"tags" : [ "Relaxing" ],
+	"title" : "Stay",
+	"type" : "scene",
+	"version" : 7,
+	"visibility" : "public",
+	"workshopid" : "2406203993",
+	"workshopurl" : "steam://url/CommunityFilePage/2406203993"
+}
